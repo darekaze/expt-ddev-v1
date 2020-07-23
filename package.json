@@ -11,5 +11,16 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "endOfLine": "lf",
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": true,
+    "bracketSpacing": false,
+    "trailingComma": "all",
+    "arrowParens": "always"
   }
 }
