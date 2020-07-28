@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.4.4",
+    "next": "~9.5.0",
     "next-mdx-enhanced": "^3.0.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.24",
