@@ -15,8 +15,8 @@ module.exports = {
   rules: {
     'prettier/prettier': 'warn',
     'arrow-body-style': 'off',
-    'jsx-quotes': ['error', 'prefer-single'],
     'no-unused-expressions': 'off',
+    'jsx-quotes': ['error', 'prefer-single'],
     'react/jsx-closing-bracket-location': [
       'error',
       { selfClosing: 'tag-aligned', nonEmpty: 'after-props' },
