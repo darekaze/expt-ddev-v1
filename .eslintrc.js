@@ -10,6 +10,20 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
   },
-  plugins: ['@typescript-eslint'],
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+  plugins: ['@typescript-eslint', 'prettier'],
+  extends: ['airbnb-typescript', 'airbnb/hooks', 'prettier/@typescript-eslint'],
+  rules: {
+    'prettier/prettier': 'warn',
+    'arrow-body-style': 'off',
+    'jsx-quotes': ['error', 'prefer-single'],
+    'no-unused-expressions': 'off',
+    'react/jsx-closing-bracket-location': [
+      'error',
+      { selfClosing: 'tag-aligned', nonEmpty: 'after-props' },
+    ],
+    '@typescript-eslint/no-unused-expressions': [
+      'error',
+      { allowShortCircuit: true, allowTernary: true },
+    ],
+  },
 }
