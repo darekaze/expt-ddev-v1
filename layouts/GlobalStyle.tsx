@@ -7,7 +7,6 @@ const GlobalStyle = () => (
     styles={css`
       html {
         box-sizing: border-box;
-        overflow-x: hidden;
       }
 
       *,
@@ -20,7 +19,6 @@ const GlobalStyle = () => (
         overflow-x: hidden;
         background-color: ${theme`colors.bg`};
         color: ${theme`colors.text`};
-        font-family: ${theme`fonts.body`};
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
