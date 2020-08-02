@@ -18,8 +18,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
-    "paths": { "@/*": ["./*"] },
-    "plugins": [{ "name": "typescript-plugin-tw-template" }]
+    "paths": { "@/*": ["./*"] }
   },
   "exclude": ["node_modules"],
   "include": [

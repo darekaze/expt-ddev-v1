@@ -36,8 +36,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "typescript": "~3.9.7",
-    "typescript-plugin-tw-template": "^2.0.1"
+    "typescript": "~3.9.7"
   },
   "babelMacros": {
     "twin": {

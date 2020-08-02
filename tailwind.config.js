@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 // Theme doc: https://tailwindcss.com/docs/theme/
-// Supporing plugins: https://twin-docs.netlify.app/plugin-support
+// Supported plugins: https://twin-docs.netlify.app/plugin-support
 // Customizing typography: https://github.com/tailwindlabs/tailwindcss-typography#customization
 
 module.exports = {

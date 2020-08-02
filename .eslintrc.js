@@ -17,6 +17,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'no-unused-expressions': 'off',
     'jsx-quotes': ['error', 'prefer-single'],
+    'react/prop-types': ['off'],
     'react/jsx-closing-bracket-location': [
       'error',
       { selfClosing: 'tag-aligned', nonEmpty: 'after-props' },
