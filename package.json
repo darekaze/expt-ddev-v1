@@ -8,14 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "@chakra-ui/core": "^0.8.0",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "next": "~9.5.0",
     "next-mdx-enhanced": "^3.0.0",
     "react": "~16.13.1",
-    "react-dom": "~16.13.1"
+    "react-dom": "~16.13.1",
+    "twin.macro": "^1.7.0"
   },
   "devDependencies": {
     "@types/node": "^14.0.24",
@@ -37,6 +38,15 @@
     "prettier": "^2.0.5",
     "typescript": "~3.9.7"
   },
+  "babelMacros": {
+    "twin": {
+      "config": "tailwind.config.js",
+      "preset": "emotion",
+      "debugProp": true,
+      "debugPlugins": false,
+      "debug": false
+    }
+},
   "prettier": {
     "printWidth": 100,
     "endOfLine": "lf",
