@@ -11,6 +11,7 @@
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "@tailwindcss/typography": "^0.2.0",
     "next": "~9.5.0",
     "next-mdx-enhanced": "^3.0.0",
     "react": "~16.13.1",
@@ -35,7 +36,8 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "typescript-plugin-tw-template": "^2.0.1"
   },
   "babelMacros": {
     "twin": {
@@ -45,7 +47,7 @@
       "debugPlugins": false,
       "debug": false
     }
-},
+  },
   "prettier": {
     "printWidth": 100,
     "endOfLine": "lf",
