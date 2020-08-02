@@ -1,5 +1,4 @@
 // To configure this file, see: https://github.com/garmeeh/next-seo#nextseo-options
-// Additional meta: https://github.com/garmeeh/next-seo#additional-meta-tags
 
 import type { DefaultSeoProps } from 'next-seo'
 
