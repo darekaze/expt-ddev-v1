@@ -18,6 +18,7 @@ module.exports = {
     'no-unused-expressions': 'off',
     'jsx-quotes': ['error', 'prefer-single'],
     'react/prop-types': ['off'],
+    'react/jsx-one-expression-per-line': ['off'],
     'react/jsx-closing-bracket-location': [
       'error',
       { selfClosing: 'tag-aligned', nonEmpty: 'after-props' },
