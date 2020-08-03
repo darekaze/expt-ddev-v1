@@ -9,15 +9,13 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
+      <div>
         <h1 className='title'>
-          Welcome to
-          <a href='https://nextjs.org'>Next.js!</a>
+          Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
 
         <p className='description'>
-          Get started by editing
-          <code>pages/index.js</code>
+          Get started by editing <code>pages/index.js</code>
         </p>
 
         <div className='grid'>
@@ -43,48 +41,10 @@ export default function Home() {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Powered by
-          <img src='/vercel.svg' alt='Vercel Logo' className='logo' />
-        </a>
-      </footer>
+      </div>
 
       <style jsx>
         {`
-          main {
-            padding: 5rem 0;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
-
-          footer {
-            width: 100%;
-            height: 100px;
-            border-top: 1px solid #eaeaea;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-
-          footer img {
-            margin-left: 0.5rem;
-          }
-
-          footer a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-
           a {
             color: inherit;
             text-decoration: none;
